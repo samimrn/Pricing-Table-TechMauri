@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+/*style for all*/
+.center{
+    text-align: center;
+}
+
+
+/*style for container*/
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+ 
+}
+.container h1{
+    color: white;
+    font-size: 32px;
+    padding: 50px 0;
+}
+.price-row{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 25px;
+}
+.price-col{
+    background-color:  #1c2a36;
+    padding: 10% 0;
+    border-radius: 10px;
+    color: white;
+}
+.price-col h3{
+    font-family: 'Noto Sans';
+    font-size: x-large;
+}
+.price-col h5{
+    font-family: 'Noto Sans';
+    font-size: small;
+}
+.price-col h2{
+    padding: 10px 0;
+}
+.price-col #hs1{
+    font-family: 'Noto Sans';
+    font-size: xx-large;
+    font-weight: bold;
+    background:linear-gradient(to right, #33cc33 0%, #99ff99 100%);
+    margin: 20px 0;
+}
+.price-col #hs2{
+    font-family: 'Noto Sans';
+    font-size: xx-large;
+    font-weight: bold;
+    background:linear-gradient(to top left, #ff9966 0%, #ff6600 100%);
+    margin: 20px 0;
+}
+.price-col #hs3{
+    font-family: 'Noto Sans';
+    font-size: xx-large;
+    font-weight: bold;
+    background:linear-gradient(to top left, #0066ff 0%, #9999ff 100%);
+    margin: 20px 0;
+}
+.price-col p{
+    padding: 2% 10%;
+    font-size: small;
+    line-height: normal;
+}
+.price-col ul{
+    padding-top: 30px;  
+    line-height: 300%;
+    list-style: none;
+    font-size: small;
+}
+.price-col li{
+     background: #1c2a36;
+     padding-left: 15%;
+}
+
+.price-col li:nth-child(odd) { background: #26313b;
+}
+
+.check {
+        background: linear-gradient(to right, #33cc33 0%, #99ff99 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-right: 10px;
+}
+.check2 {
+        background: linear-gradient(to top left, #ff9966 0%, #ff6600 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-right: 10px;
+ }
+ .check3 {
+        background: linear-gradient(to top left, #0066ff 0%, #9999ff 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-right: 10px;
+}
+.btn{
+    margin-top: 10px;
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(to top left, #0066ff 0%, #9999ff 100%);
+    color: white;
+    padding: 8px 30px;
+    font-size:small;
+}
+.button{
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-1{
+    background: linear-gradient(to top left, #00cc66 0%, #009933 100%);
+}
+.btn-2{
+    background: linear-gradient(to top left, #ff9966 0%, #ff6600 100%);
+}
+.btn-3{
+    background: linear-gradient(to top left, #0066ff 0%, #9999ff 100%);
+}
